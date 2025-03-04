@@ -112,7 +112,7 @@ export default function ContactPage() {
 								+234 911 253 8950
 							</p>
 							<p className="mt-2 text-blue-700 font-medium">
-								+234 911 253 8950
+								+234 816 211 6855
 							</p>
 						</div>
 

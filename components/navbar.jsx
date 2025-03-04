@@ -112,7 +112,7 @@ export default function Navbar() {
 							Home
 						</Link>
 						<Link
-							href="/services"
+							href="/about"
 							onClick={closeMenu}
 							className="w-full text-center text-white text-2xl py-4 border-b border-white/20 hover:bg-white/10">
 							Services
