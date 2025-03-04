@@ -131,6 +131,13 @@ export default function Footer() {
 								<a
 									href="#"
 									className="text-sm sm:text-base text-gray-500 hover:text-black transition duration-300">
+									+234 816 211 6855
+								</a>
+							</li>
+							<li>
+								<a
+									href="#"
+									className="text-sm sm:text-base text-gray-500 hover:text-black transition duration-300">
 									info@all-encompassingglobalconsult.com
 								</a>
 							</li>
@@ -138,8 +145,7 @@ export default function Footer() {
 								<a
 									href="#"
 									className="text-sm sm:text-base text-gray-500 hover:text-black transition duration-300">
-									Sparklight Estate, Lagos-Ibadan expressway,
-									OPIC, Ogun State.
+									Sparklight Estate, Lagos-Ibadan expressway.
 								</a>
 							</li>
 						</ul>
@@ -149,7 +155,7 @@ export default function Footer() {
 				{/* Footer Bottom */}
 				<div className="border-t border-blue-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
 					<p className="text-sm sm:text-base text-gray-500">
-						© 2023 All Encompassing Global Consult. All rights
+						© 2025 All-Encompassing Global Consult. All rights
 						reserved.
 					</p>
 				</div>

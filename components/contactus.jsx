@@ -140,7 +140,7 @@ export default function ContactPage() {
 								PM
 							</p>
 							<p className="mt-2 text-blue-700 font-medium">
-								Sparklight Estate, Lagos-Ibadan expressway
+								Sparklight Estate, Lagos-Ibadan expressway.
 							</p>
 						</div>
 					</div>
