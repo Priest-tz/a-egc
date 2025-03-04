@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,21 @@ export default function Navbar() {
 		<nav className="bg-gradient-to-r from-blue-500 via-purple-600 to-[#4492d7] px-4 py-4">
 			<div className="container mx-auto flex justify-between items-center">
 				{/* Logo  */}
-				<div className="text-white text-xl font-bold">
-					All-Encompassing Global Consult
+				<div className="flex items-center gap-2 h-16">
+					{" "}
+					<div className="flex items-center">
+						{" "}
+						<Image
+							src="/images/a-egc.png"
+							width={80}
+							height={80}
+							alt="All-Encompassing Global Consult Logo"
+							className="object-fit"
+						/>
+					</div>
+					<span className="text-white text-xl md:text-3xl font-bold">
+						All-Encompassing Global Consult
+					</span>
 				</div>
 
 				{/* Hamburger Menu Icon for Mobile */}
@@ -44,22 +58,24 @@ export default function Navbar() {
 
 				{/* Desktop Menu*/}
 				<div className="hidden md:flex space-x-6">
-					<Link href="/" className="text-white hover:text-gray-200">
+					<Link
+						href="/"
+						className="text-white hover:text-gray-200 text-xl">
 						Home
 					</Link>
 					<Link
 						href="/services"
-						className="text-white hover:text-gray-200">
+						className="text-white hover:text-gray-200 text-xl">
 						Services
 					</Link>
 					<Link
 						href="/about"
-						className="text-white hover:text-gray-200">
+						className="text-white hover:text-gray-200 text-xl">
 						About Us
 					</Link>
 					<Link
 						href="/contact"
-						className="text-white hover:text-gray-200">
+						className="text-white hover:text-gray-200 text-xl">
 						Contact Us
 					</Link>
 				</div>
