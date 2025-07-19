@@ -15,23 +15,23 @@ export default function Navbar() {
 	};
 
 	return (
-		<nav className="bg-gradient-to-r from-blue-500 via-purple-600 to-[#4492d7] px-4 py-4">
+		<nav className="bg-white px-4 py-6">
 			<div className="container mx-auto flex justify-between items-center">
 				{/* Logo  */}
 				<div className="flex items-center gap-2 h-16">
 					{" "}
-					<div className="flex items-center">
+					<div className="flex items-center mr-2">
 						{" "}
 						<Image
-							src="/images/a-egc.png"
+							src="/images/logo.png"
 							width={80}
 							height={80}
 							alt="All-Encompassing Global Consult Logo"
 							className="object-fit"
 						/>
 					</div>
-					<span className="text-white text-xl md:text-3xl font-bold">
-						All-Encompassing Global Consult
+					<span className="text-black text-xl md:text-2xl font-bold">
+						ALL-ENCOMPASSING <br/>GLOBAL CONSULT
 					</span>
 				</div>
 
@@ -39,7 +39,7 @@ export default function Navbar() {
 				<div className="flex md:hidden">
 					<button
 						onClick={toggleMenu}
-						className="text-white focus:outline-none">
+						className="text-black focus:outline-none">
 						<svg
 							className="w-8 h-8"
 							fill="none"
@@ -54,28 +54,28 @@ export default function Navbar() {
 							/>
 						</svg>
 					</button>
-				</div>
+				</div> 
 
 				{/* Desktop Menu*/}
 				<div className="hidden md:flex space-x-6">
 					<Link
 						href="/"
-						className="text-white hover:text-gray-200 text-xl">
+						className="text-black hover:text-black text-xl">
 						Home
 					</Link>
 					<Link
 						href="/about"
-						className="text-white hover:text-gray-200 text-xl">
+						className="text-black hover:text-black text-xl">
 						Services
 					</Link>
 					<Link
 						href="/about"
-						className="text-white hover:text-gray-200 text-xl">
+						className="text-black hover:text-black text-xl">
 						About Us
 					</Link>
 					<Link
 						href="/contact"
-						className="text-white hover:text-gray-200 text-xl">
+						className="text-black hover:text-black text-xl">
 						Contact Us
 					</Link>
 				</div>
@@ -88,7 +88,7 @@ export default function Navbar() {
 						{/* Close Button */}
 						<button
 							onClick={closeMenu}
-							className="absolute top-4 right-4 text-white focus:outline-none">
+							className="absolute top-4 right-4 text-black focus:outline-none">
 							<svg
 								className="w-8 h-8"
 								fill="none"
@@ -108,25 +108,25 @@ export default function Navbar() {
 						<Link
 							href="/"
 							onClick={closeMenu}
-							className="w-full text-center text-white text-2xl py-4 border-b border-white/20 hover:bg-white/10">
+							className="w-full text-center text-black text-2xl py-4 border-b border-white/20 hover:bg-white/10">
 							Home
 						</Link>
 						<Link
 							href="/about"
 							onClick={closeMenu}
-							className="w-full text-center text-white text-2xl py-4 border-b border-white/20 hover:bg-white/10">
+							className="w-full text-center text-black text-2xl py-4 border-b border-white/20 hover:bg-white/10">
 							Services
 						</Link>
 						<Link
 							href="/about"
 							onClick={closeMenu}
-							className="w-full text-center text-white text-2xl py-4 border-b border-white/20 hover:bg-white/10">
+							className="w-full text-center text-black text-2xl py-4 border-b border-white/20 hover:bg-white/10">
 							About Us
 						</Link>
 						<Link
 							href="/contact"
 							onClick={closeMenu}
-							className="w-full text-center text-white text-2xl py-4 border-b border-white/20 hover:bg-white/10">
+							className="w-full text-center text-black text-2xl py-4 border-b border-white/20 hover:bg-white/10">
 							Contact Us
 						</Link>
 					</div>
